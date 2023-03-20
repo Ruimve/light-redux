@@ -1,5 +1,5 @@
 {
-  "name": "tempalte-lib-rollup",
+  "name": "light-redux",
   "version": "1.0.0",
   "description": "",
   "main": "es/index.js",
@@ -19,12 +19,12 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ruimve/TEMPALTE-LIB-ROLLUP.git"
+    "url": "git+https://github.com/Ruimve/light-redux.git"
   },
   "bugs": {
-    "url": "https://github.com/Ruimve/TEMPALTE-LIB-ROLLUP/issues"
+    "url": "https://github.com/Ruimve/light-redux/issues"
   },
-  "homepage": "https://github.com/Ruimve/TEMPALTE-LIB-ROLLUP#readme",
+  "homepage": "https://github.com/Ruimve/light-redux#readme",
   "dependencies": {
     "typescript": "^4.9.4"
   },

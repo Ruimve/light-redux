@@ -5,5 +5,5 @@
 
 ### Features
 
-* template ([d46655a](https://github.com/Ruimve/TEMPALTE-LIB-ROLLUP/commit/d46655aecdb39f5f677c839386202ecbe40dceae))
-* update .gitignore ([2ab8211](https://github.com/Ruimve/TEMPALTE-LIB-ROLLUP/commit/2ab82112d649dbb57be41ce866a907cedee9b614))
+* template ([d46655a](https://github.com/Ruimve/light-redux/commit/d46655aecdb39f5f677c839386202ecbe40dceae))
+* update .gitignore ([2ab8211](https://github.com/Ruimve/light-redux/commit/2ab82112d649dbb57be41ce866a907cedee9b614))
