@@ -1,25 +1,34 @@
-# TEMPLATE-LIB-ROLLUP
-🌈 类库模板！全面好用！！🔥 欢迎提交 PR: [CONTRIBUTING](https://www.conventionalcommits.org)
+<div align="center">
+  <h1>Light Redux</h1>
 
-## 基础构建
-|技术栈|描述|
-|:---:|:--:|
-|[rollup](https://www.rollupjs.com/)|构建工具|
-|[rollup/plugins](https://github.com/rollup/plugins)|打包插件|
+  <a href="https://github.com/Ruimve">
+    <img
+      width="80"
+      alt="Ruimve"
+      src="https://github.com/Ruimve/materials/blob/main/images/redux.png?raw=true"
+    />
+  </a>
 
-## 代码规范
-|技术栈|描述|
-|:---:|:--:|
-|[typescript](https://www.tslang.cn/index.html)|类型约束|
-|[commitlint](https://github.com/conventional-changelog/commitlint#getting-started)|提交约束|
-|[release-please](https://github.com/googleapis/release-please)|日志|
+  <p>轻量化的 redux 解决方案</p>
+</div>
+<hr />
 
-## 测试框架
-|技术栈|描述|
-|:---:|:--:|
-|[jest](https://jestjs.io/)|通用测试框架|
+[![Build Status][build-badge]][build]
+[![Code Coverage][coverage-badge]][coverage]
+[![version][version-badge]][package]
+[![downloads][downloads-badge]][npmtrends]
+[![MIT License][license-badge]][license]
+[![PRs Welcome][prs-badge]][prs]
 
-## 持续集成
-|技术栈|描述|
-|:---:|:--:|
-|**Github Actions**|ci|
+[build-badge]:https://img.shields.io/github/workflow/status/light-redux/validate?logo=github&style=flat-square
+[build]: https://github.com/Ruimve/light-redux/actions/workflows/ci.yml/badge.svg
+[coverage-badge]: https://img.shields.io/codecov/c/github/Ruimve/light-redux.svg?style=flat-square
+[coverage]: https://codecov.io/github/light-redux
+[version-badge]: https://img.shields.io/npm/v/light-redux.svg?style=flat-square
+[package]: https://www.npmjs.com/package/light-redux
+[downloads-badge]: https://img.shields.io/npm/dm/light-redux.svg?style=flat-square
+[npmtrends]: http://www.npmtrends.com/light-redux
+[license-badge]: https://img.shields.io/npm/l/light-redux.svg?style=flat-square
+[license]: https://github.com/Ruimve/light-redux/blob/master/LICENSE
+[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[prs]: http://makeapullrequest.com

@@ -11,7 +11,33 @@ export default [
       file: pkg.main,
       format: 'es'
     },
-    external: [],
+    external: ['react-redux', '@reduxjs/toolkit'],
+    plugins: [
+      nodeResolve(),
+      typescript({
+        compilerOptions: {
+          declaration: false
+        }
+      }),
+      commonjs(),
+      terser()
+    ]
+  },
+  {
+    input: 'src/testingLibrary.ts',
+    output: {
+      file: 'es/testingLibrary/testingLibrary.js',
+      format: 'es'
+    },
+    external: [
+      'react',
+      'react-dom',
+      'react/jsx-runtime',
+      'redux',
+      'react-redux',
+      '@reduxjs/toolkit',
+      '@testing-library/react'
+    ],
     plugins: [
       nodeResolve(),
       typescript({
@@ -26,10 +52,37 @@ export default [
   {
     input: 'src/index.ts',
     output: {
-      file: pkg.types,
+      file: 'types/index.d.ts',
       format: 'es'
     },
-    external: [],
+    external: [
+      'react',
+      'react-dom',
+      'react/jsx-runtime',
+      'redux',
+      'react-redux',
+      '@reduxjs/toolkit',
+      '@testing-library/react'
+    ],
+    plugins: [
+      typescript()
+    ]
+  },
+  {
+    input: 'src/testingLibrary.ts',
+    output: {
+      file: 'types/testingLibrary.d.ts',
+      format: 'es'
+    },
+    external: [
+      'react',
+      'react-dom',
+      'react/jsx-runtime',
+      'redux',
+      'react-redux',
+      '@reduxjs/toolkit',
+      '@testing-library/react'
+    ],
     plugins: [
       typescript()
     ]
