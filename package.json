@@ -1,6 +1,6 @@
 {
   "name": "light-redux",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "轻量化的 redux 解决方案",
   "main": "es/index.js",
   "types": "types/index.d.ts",

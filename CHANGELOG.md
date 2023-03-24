@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2023-03-24)
+
+
+### Features
+
+* createAction, renderWithRedux ([c50f763](https://github.com/Ruimve/light-redux/commit/c50f763f0cd69f913a9faf1377c28a26463b297d))
+
 ## 1.0.0 (2023-01-23)
 
 
